@@ -9,6 +9,14 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'export',
+  basePath: '/kkms',
+  assetPrefix: '/kkms/',
+  images: {
+    unoptimized: true,
+  },
 }
 
 export default nextConfig
+
+// module.exports = nextConfig;

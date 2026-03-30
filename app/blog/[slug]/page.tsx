@@ -300,3 +300,11 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
     </div>
   )
 }
+
+export async function generateStaticParams() {
+  return [
+    { slug: 'hello-world' },
+    { slug: 'post-1' },
+    { slug: 'post-2' },
+  ];
+}
